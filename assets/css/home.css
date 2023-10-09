@@ -1,0 +1,48 @@
+.bg-image-container{
+    background-size: cover;
+	background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    position: relative;
+    height: 100vh;
+    
+}
+.blur-cover{
+    background-color: rgba(0, 0, 0, 0.6);
+    position: absolute;
+    top: 0;
+    left: 0px;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    opacity: .9;
+}
+.frontMag{
+    float: right;
+    width: 200px;
+    height: 250px;
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.06), 
+                0 2px 5px 0 rgba(0, 0, 0, 0.2);
+    transition: .2s;
+}
+.col-md-6{
+    padding: 0;
+}
+.frontMag:hover{
+    transform: scale(1.2);
+    transition: .2s;
+}
+.container{
+    margin: 0 auto;
+}
+.leftContainer{
+    text-align: center;
+    padding: 5% 0;
+}
+.leftContainer h1{
+    padding-top:10%;
+}
+.titleT{
+    padding: 5% 20%;
+}
+
